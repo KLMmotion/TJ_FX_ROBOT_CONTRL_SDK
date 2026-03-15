@@ -23,7 +23,8 @@ PY_SITE="/usr/lib/python3/dist-packages"
 LIB_DIR="/usr/lib/${MULTIARCH}"
 INC_DIR="/usr/include/marvin"
 
-BUILD_DIR="${SDK_DIR}/build"
+# Use a fresh temp build dir every time to avoid stale CMakeCache.txt conflicts
+BUILD_DIR="$(mktemp -d)/marvin_build"
 
 echo "=== Marvin SDK deb builder v${VERSION} ==="
 echo "    arch:    ${ARCH}"

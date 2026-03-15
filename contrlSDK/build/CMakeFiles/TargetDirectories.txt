@@ -1,7 +1,0 @@
-/home/tianhao/marvin_sdk/TJ_FX_ROBOT_CONTRL_SDK/contrlSDK/build/CMakeFiles/marvin_sdk.dir
-/home/tianhao/marvin_sdk/TJ_FX_ROBOT_CONTRL_SDK/contrlSDK/build/CMakeFiles/edit_cache.dir
-/home/tianhao/marvin_sdk/TJ_FX_ROBOT_CONTRL_SDK/contrlSDK/build/CMakeFiles/rebuild_cache.dir
-/home/tianhao/marvin_sdk/TJ_FX_ROBOT_CONTRL_SDK/contrlSDK/build/CMakeFiles/list_install_components.dir
-/home/tianhao/marvin_sdk/TJ_FX_ROBOT_CONTRL_SDK/contrlSDK/build/CMakeFiles/install.dir
-/home/tianhao/marvin_sdk/TJ_FX_ROBOT_CONTRL_SDK/contrlSDK/build/CMakeFiles/install/local.dir
-/home/tianhao/marvin_sdk/TJ_FX_ROBOT_CONTRL_SDK/contrlSDK/build/CMakeFiles/install/strip.dir
