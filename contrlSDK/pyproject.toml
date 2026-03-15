@@ -1,0 +1,20 @@
+[build-system]
+requires = ["scikit-build-core>=0.9", "pybind11>=3.0"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "marvin-sdk"
+version = "1.0.0"
+description = "Marvin Robot Control SDK — pybind11 Python bindings"
+requires-python = ">=3.8"
+license = { text = "Apache-2.0" }
+
+# pip install .                  → 编译安装到当前 Python 环境
+# pip install -e . --no-build-isolation  → 开发模式（每次改 .cpp 需重装）
+# pip install . --no-build-isolation     → 不用联网下载依赖
+
+[tool.scikit-build]
+cmake.build-type = "Release"
+# 只把扩展模块装进包，不带 SDK 源码
+wheel.packages = []
+install.components = ["python_modules"]
